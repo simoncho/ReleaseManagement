@@ -32,14 +32,18 @@ $TFS_Database : TFS database name
 2.Deploy [Developer] and [DevOps] to the reporting service server.<br>
 3.Create empty database [Reporting_Repository] on same DB server of ReleaseManagement.<br>
 4.Create linked server to TFS_Server with read permission<br>
-Note : If you using same DB server as ReleaseManagement, skip this part. Please just add read access permission.
+Note : If you using same DB server as ReleaseManagement, skip this part. Please just add read access permission.<br>
 5.Create SQL user with below permission<br>
-Reporting_Repository : DB_Owner<br>
-ReleaseManagement : DB_Datareader<br>
-TFS_Database : DB_datareader<br>
-6.Update 2 data sources on Reporting server.
-AllDev_Report_RepositoryDS : Update it use SQL authentication.<br>
-DevOps_Report_RepositoryDS : Update it use SQL authentication.
+-Reporting_Repository : DB_Owner<br>
+-ReleaseManagement : DB_Datareader<br>
+-TFS_Database : DB_datareader<br>
+6.Deploy Reporting_Repository database<br>
+Note : Please replace $TFS_Server and $TFS_Database variable.<Br>
+If you use "Reporting_Repository.publish.xml", it will show the variable.<br>
+Deployment method : Please check this as a reference. http://blogs.msmvps.com/deborahk/deploying-a-dacpac-with-sqlpackage/<br>
+7.Update 2 data sources on Reporting server.<br>
+-AllDev_Report_RepositoryDS : Update it use SQL authentication.<br>
+-DevOps_Report_RepositoryDS : Update it use SQL authentication.<br>
 
 #Example screen shot.
 Please check those 2 files.
