@@ -40,5 +40,4 @@ TFS_Database : DB_datareader<br>
 AllDev_Report_RepositoryDS : Update it use SQL authentication.<br>
 DevOps_Report_RepositoryDS : Update it use SQL authentication.
 
-#Example screenshot
 
