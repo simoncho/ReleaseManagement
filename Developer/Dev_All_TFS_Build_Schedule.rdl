@@ -1165,6 +1165,23 @@ min</Value>
         </Field>
       </Fields>
     </DataSet>
+    <DataSet Name="DataSet2">
+      <Query>
+        <DataSourceName>AllDev_Report_RepositoryDS</DataSourceName>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>Dev_Get_GroupID</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="GroupID">
+          <DataField>GroupID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ProjectName">
+          <DataField>ProjectName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
   </DataSets>
   <ReportParameters>
     <ReportParameter Name="DefinitionName">
@@ -1241,30 +1258,18 @@ min</Value>
     <ReportParameter Name="GroupId">
       <DataType>Integer</DataType>
       <DefaultValue>
-        <Values>
-          <Value>1</Value>
-        </Values>
+        <DataSetReference>
+          <DataSetName>DataSet2</DataSetName>
+          <ValueField>GroupID</ValueField>
+        </DataSetReference>
       </DefaultValue>
       <Prompt>TeamProject</Prompt>
       <ValidValues>
-        <ParameterValues>
-          <ParameterValue>
-            <Value>1</Value>
-            <Label>1</Label>
-          </ParameterValue>
-          <ParameterValue>
-            <Value>2</Value>
-            <Label>2</Label>
-          </ParameterValue>
-          <ParameterValue>
-            <Value>3</Value>
-            <Label>3</Label>
-          </ParameterValue>
-          <ParameterValue>
-            <Value>4</Value>
-            <Label>4</Label>
-          </ParameterValue>
-        </ParameterValues>
+        <DataSetReference>
+          <DataSetName>DataSet2</DataSetName>
+          <ValueField>GroupID</ValueField>
+          <LabelField>ProjectName</LabelField>
+        </DataSetReference>
       </ValidValues>
     </ReportParameter>
   </ReportParameters>

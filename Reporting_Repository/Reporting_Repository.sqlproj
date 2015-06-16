@@ -92,6 +92,7 @@
     <Build Include="Views\DevOps_Alert_Pending_Release_2hours.sql" />
     <Build Include="Views\DevOps_Alert_InstancesTable.sql" />
     <Build Include="Views\DevOps_Alert_DeploymentQueue.sql" />
+    <Build Include="Stored Procedures\Dev_Get_GroupID.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Tables_Data\syscode_Data.sql" />
