@@ -35,8 +35,7 @@ Note : If you using same DB server as ReleaseManagement, skip this part. Please 
 Reporting_Repository : DB_Owner<br>
 ReleaseManagement : DB_Datareader<br>
 TFS_Database : DB_datareader<br>
-
-###6.Update 2 data sources on Reporting server.
+6.Update 2 data sources on Reporting server.
 AllDev_Report_RepositoryDS : Update it use SQL authentication.<br>
 DevOps_Report_RepositoryDS : Update it use SQL authentication.
 
