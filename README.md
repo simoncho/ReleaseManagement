@@ -4,6 +4,7 @@ This is ReleaseManagement based on Reporting service.<br>
 I'm running on our company without anyproblem.<br>
 Please use it as own your risk.<br>
 Free license for testing, update, modification and distribute.<br>
+This version is working up to releaseManagement 12.0.31101.0.
 
 #Contents
 ##Reporting Service
