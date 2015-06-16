@@ -20,7 +20,7 @@ SELECT BD.[DefinitionId]
 	 , B1.[code_name] AS LatestBuildStatus
 	 , REPLACE(REPLACE(REPLACE(B1.BuildNumber,'"','-'),'>','_'),'\','') AS LatestBuildNo
 	 , B1.Quality
-	 , REPLACE(B1.DisplayName,'[Nowcom]\Project Collection Service Accounts','SYSTEM') AS QueuedBy
+	 , B1.DisplayName AS QueuedBy
 	 , s.TimeZoneId
 	 
 	 -- TFS Deploytime bug in case of DaylightSaving

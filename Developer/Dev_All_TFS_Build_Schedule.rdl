@@ -1059,7 +1059,7 @@ min</Value>
         <DataSetName>DataSet1</DataSetName>
         <Top>0.36in</Top>
         <Height>0.43in</Height>
-        <Width>21.1875in</Width>
+        <Width>21.18751in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
@@ -1067,7 +1067,7 @@ min</Value>
     <Height>0.79in</Height>
     <Style />
   </Body>
-  <Width>21.1875in</Width>
+  <Width>21.18751in</Width>
   <Page>
     <PageHeight>60in</PageHeight>
     <LeftMargin>1in</LeftMargin>
@@ -1242,19 +1242,27 @@ min</Value>
       <DataType>Integer</DataType>
       <DefaultValue>
         <Values>
-          <Value>3</Value>
+          <Value>1</Value>
         </Values>
       </DefaultValue>
       <Prompt>TeamProject</Prompt>
       <ValidValues>
         <ParameterValues>
           <ParameterValue>
-            <Value>3</Value>
-            <Label>DevOps</Label>
+            <Value>1</Value>
+            <Label>1</Label>
           </ParameterValue>
           <ParameterValue>
             <Value>2</Value>
-            <Label>NowcomDevelopers</Label>
+            <Label>2</Label>
+          </ParameterValue>
+          <ParameterValue>
+            <Value>3</Value>
+            <Label>3</Label>
+          </ParameterValue>
+          <ParameterValue>
+            <Value>4</Value>
+            <Label>4</Label>
           </ParameterValue>
         </ParameterValues>
       </ValidValues>
