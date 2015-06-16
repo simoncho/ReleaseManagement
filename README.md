@@ -21,7 +21,7 @@ Doesn't have limitation for permission.<br>
 This is small database for store all related tables, procedures and e.t.c.<br>
 DB_Owner permission required.<br>
 Note : Backup and extra maintenance are your resposibility. For me, no maintenance need. All the source is in the TFS.<br>
-This database do not growing. Simple recovery mode is fine.<br>
+This database do not growing. Simple recovery model is fine.<br>
 
 #Term
 $TFS_Server : TFS database servername<br>
