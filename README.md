@@ -39,4 +39,8 @@ TFS_Database : DB_datareader<br>
 AllDev_Report_RepositoryDS : Update it use SQL authentication.<br>
 DevOps_Report_RepositoryDS : Update it use SQL authentication.
 
+#Example screen shot.
+Please check those 2 files.
 
+_Readme_EX)ScreenShot_Dev_All_InReleaseDeployLog.jpg
+_Readme_EX)ScreenShot_Dev_All_TFSInRelease_DeploySummary.jpg
