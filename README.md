@@ -4,7 +4,7 @@ This is ReleaseManagement custom report based on Reporting service.<br>
 We are using this report everyday without any issue.<br>
 But, please use it as own your risk.<br>
 We don't have any responsibility for any problem.<br>
-Free license for testing, update, modification and distribute.<br>
+Free license for any purpose.<br>
 This version is working up to releaseManagement 12.0.31101.0.
 
 #Contents
